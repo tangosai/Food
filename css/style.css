@@ -16,6 +16,7 @@
 	--bg: #F2EFAC;
 	--bg1:#FFFEE0;
 	--grey: #636363;
+	--textlight:#535353;
 }
 
 body {
@@ -87,13 +88,15 @@ ul li {
 	font-weight: 600;
 }
 
-.fi-services,.fi-menu{
+.fi-services,.fi-menu,.fi-customer,.fi-download{
 	width: 100%;
 	height: auto;
 	padding: 80px 0px;
 }
 
-
+.fi-menu,.fi-download{
+	background: var(--bg);
+}
 /*header*/
 
 header {
@@ -102,11 +105,11 @@ header {
 	padding: 8px 0px;
 }
 
-header .logo {
+header .logo,.logo {
 	width: 240px;
 }
 
-header .logo img {
+header .logo img ,.logo img{
 	width: 100%;
 }
 
@@ -209,9 +212,7 @@ header .menu ul li .login {
 }
 
 /*menu*/
-.fi-menu{
-	background: var(--bg);
-}
+
 
 .fi-menu .fi-card{
 	background: var(--white);
@@ -262,15 +263,83 @@ header .menu ul li .login {
 	color: var(--white);
 }
 
+/*customer*/
+
+.fi-customer .customer-card {
+	padding: 20px;
+}
+.fi-customer .customer-card h5{
+	font-size: 22px;
+	line-height: 30px;
+	margin-bottom: 20px;
+	font-weight: 500;
+	color: var(--textlight);
+}
+.fi-customer .customer-card .img {
+	width: 50px;
+}
+.fi-customer .customer-card .img img{
+	width: 100%;
+}
+.fi-customer .customer-card .customer-content{
+	margin-left: 8px;
+}
+.fi-customer .customer-card .customer-content h6{
+	margin: 0px;
+	font-size: 18px;
+	font-weight: 600;
+}
+.fi-customer .customer-card .customer-content label{
+	font-size: 14px;
+}
 
 
+/*download*/
+.fi-download{
+	padding-bottom: 0px;
+}
+.fi-download .download-content{
+	margin-top: 150px;
+}
+.fi-download .download-content p{
+	font-size: 22px;
+	color: var(--textlight);
+	font-weight: 500;
+}
+.fi-download .img{
+	    width: 70%;
+    margin: 0% auto;
+    height: 550px;
+    overflow: hidden;
+}
+.fi-download .img img{
+	width: 100%;
+}
 
-
-
-
-
-
-
-
-
-
+/*footer*/
+footer{
+	width: 100%;
+	height: auto;
+	padding: 40px 0px;
+	padding-bottom: 0px;
+}
+footer h3{
+	font-size: 24px;
+	font-weight: 600;
+}
+footer ul li a{
+	font-size: 15px;
+	font-weight: 400;
+	color: var(--textlight);
+	display: inline-block;
+	margin-bottom: 5px;
+}
+footer .social-icons li{
+	display: inline-block
+}
+footer .social-icons li a{
+	font-size: 24px;
+	display: inline-block;
+	margin-right: 8px;
+	color: var(--black);
+}

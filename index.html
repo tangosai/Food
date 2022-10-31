@@ -1,343 +1,416 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+	<meta charset="UTF-8" />
 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- <meta http-equiv="refresh" content="0; url=https://gimsr.vercel.app/" /> -->
+	<!-- <meta http-equiv="refresh" content="0; url=https://gimsr.vercel.app/" /> -->
 
-    <title>Food</title>
+	<title>Food</title>
 
-    <!-- Bootstrap5.2.2 css -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
+	<!-- Bootstrap5.2.2 css -->
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
 
-    <!-- Custom styles -->
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
+	<!-- Custom styles -->
+	<link rel="stylesheet" href="css/style.css" />
+</head>
 
-  <body>
-    <div id="wrapper">
-      <!-- header starts -->
-      <header>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="logo">
-                  <img src="img/logo.png" alt="" />
-                </div>
-                <div class="menu">
-                  <ul class="d-md-flex">
-                    <li><a href="#" class="active menu-link">Home</a></li>
-                    <li><a href="#" class="menu-link">Menu</a></li>
-                    <li><a href="#" class="menu-link">About Us</a></li>
-                    <li><a href="#" class="menu-link">Contact Us</a></li>
-                    <li><a href="#" class="register">Register</a></li>
-                    <li><a href="#" class="login">Login</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </header>
-      <!-- header ends -->
+<body>
+	<div id="wrapper">
+		<!-- header starts -->
+		<header>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="d-flex justify-content-between align-items-center">
+							<div class="logo">
+								<img src="img/logo.png" alt="" />
+							</div>
+							<div class="menu">
+								<ul class="d-md-flex">
+									<li><a href="#" class="active menu-link">Home</a></li>
+									<li><a href="#" class="menu-link">Menu</a></li>
+									<li><a href="#" class="menu-link">About Us</a></li>
+									<li><a href="#" class="menu-link">Contact Us</a></li>
+									<li><a href="#" class="register">Register</a></li>
+									<li><a href="#" class="login">Login</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- header ends -->
 
-      <!-- slider starts-->
-      <section class="fi-slider">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-12">
-              <div
-                id="carouselExampleCaptions"
-                class="carousel slide"
-                data-bs-ride="false"
-              >
-                <div class="carousel-indicators">
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide-to="0"
-                    class="active"
-                    aria-current="true"
-                    aria-label="Slide 1"
-                  ></button>
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide-to="1"
-                    aria-label="Slide 2"
-                  ></button>
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide-to="2"
-                    aria-label="Slide 3"
-                  ></button>
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <div class="slider-img">
-                      <img
-                        src="img/img_1.png"
-                        class="d-block w-100"
-                        alt="slider-1"
-                      />
-                    </div>
-                    <div class="carousel-caption d-block">
-                      <h1>
-                        Be the fastest in<br />
-                        delivering <span>your food</span>
-                      </h1>
-                      <p>
-                        Our job is to filling your tummy with delicious food and
-                        with fast and free delivery
-                      </p>
-                      <div class="mt-3">
-                        <a href="#" class="sa-btn sa-btn-primary"
-                          >Get Started</a
-                        >
-                        <a href="#" class="sa-btn sa-btn-border">
-                          <span class="icon"
-                            ><svg
-                              viewBox="0 0 24 24"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path d="M8 19L19 12L8 5V19Z" />
-                            </svg>
-                          </span>
-                          Watch video</a
-                        >
-                      </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="slider-img">
-                      <img
-                        src="img/img_2.png"
-                        class="d-block w-100"
-                        alt="slider-2"
-                      />
-                    </div>
-                    <div class="carousel-caption d-block">
-                      <h1>
-                        Be the fastest in<br />
-                        delivering <span>your food</span>
-                      </h1>
-                      <p>
-                        Our job is to filling your tummy with delicious food and
-                        with fast and free delivery
-                      </p>
-                      <div class="mt-3">
-                        <a href="#" class="sa-btn sa-btn-primary"
-                          >Get Started</a
-                        >
-                        <a href="#" class="sa-btn sa-btn-border">
-                          <span class="icon"
-                            ><svg
-                              viewBox="0 0 24 24"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path d="M8 19L19 12L8 5V19Z" />
-                            </svg>
-                          </span>
-                          Watch video</a
-                        >
-                      </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="slider-img">
-                      <img
-                        src="img/img_3.png"
-                        class="d-block w-100"
-                        alt="slider-3"
-                      />
-                    </div>
-                    <div class="carousel-caption d-block">
-                      <h1>
-                        Be the fastest in<br />
-                        delivering <span>your food</span>
-                      </h1>
-                      <p>
-                        Our job is to filling your tummy with delicious food and
-                        with fast and free delivery
-                      </p>
-                      <div class="mt-3">
-                        <a href="#" class="sa-btn sa-btn-primary"
-                          >Get Started</a
-                        >
-                        <a href="#" class="sa-btn sa-btn-border">
-                          <span class="icon"
-                            ><svg
-                              viewBox="0 0 24 24"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path d="M8 19L19 12L8 5V19Z" />
-                            </svg>
-                          </span>
-                          Watch video</a
-                        >
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <button
-                  class="carousel-control-prev"
-                  type="button"
-                  data-bs-target="#carouselExampleCaptions"
-                  data-bs-slide="prev"
-                >
-                  <span
-                    class="carousel-control-prev-icon"
-                    aria-hidden="true"
-                  ></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button
-                  class="carousel-control-next"
-                  type="button"
-                  data-bs-target="#carouselExampleCaptions"
-                  data-bs-slide="next"
-                >
-                  <span
-                    class="carousel-control-next-icon"
-                    aria-hidden="true"
-                  ></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- slider ends-->
+		<!-- slider starts-->
+		<section class="fi-slider">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-12">
+						<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+							<div class="carousel-indicators">
+								<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+								<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+								<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+							</div>
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<div class="slider-img">
+										<img src="img/img_1.png" class="d-block w-100" alt="slider-1" />
+									</div>
+									<div class="carousel-caption d-block">
+										<h1>
+											Be the fastest in<br />
+											delivering <span>your food</span>
+										</h1>
+										<p>
+											Our job is to filling your tummy with delicious food and
+											with fast and free delivery
+										</p>
+										<div class="mt-3">
+											<a href="#" class="sa-btn sa-btn-primary">Get Started</a>
+											<a href="#" class="sa-btn sa-btn-border">
+												<span class="icon"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+														<path d="M8 19L19 12L8 5V19Z" />
+													</svg>
+												</span>
+												Watch video</a>
+										</div>
+									</div>
+								</div>
+								<div class="carousel-item">
+									<div class="slider-img">
+										<img src="img/img_2.png" class="d-block w-100" alt="slider-2" />
+									</div>
+									<div class="carousel-caption d-block">
+										<h1>
+											Be the fastest in<br />
+											delivering <span>your food</span>
+										</h1>
+										<p>
+											Our job is to filling your tummy with delicious food and
+											with fast and free delivery
+										</p>
+										<div class="mt-3">
+											<a href="#" class="sa-btn sa-btn-primary">Get Started</a>
+											<a href="#" class="sa-btn sa-btn-border">
+												<span class="icon"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+														<path d="M8 19L19 12L8 5V19Z" />
+													</svg>
+												</span>
+												Watch video</a>
+										</div>
+									</div>
+								</div>
+								<div class="carousel-item">
+									<div class="slider-img">
+										<img src="img/img_3.png" class="d-block w-100" alt="slider-3" />
+									</div>
+									<div class="carousel-caption d-block">
+										<h1>
+											Be the fastest in<br />
+											delivering <span>your food</span>
+										</h1>
+										<p>
+											Our job is to filling your tummy with delicious food and
+											with fast and free delivery
+										</p>
+										<div class="mt-3">
+											<a href="#" class="sa-btn sa-btn-primary">Get Started</a>
+											<a href="#" class="sa-btn sa-btn-border">
+												<span class="icon"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+														<path d="M8 19L19 12L8 5V19Z" />
+													</svg>
+												</span>
+												Watch video</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Previous</span>
+							</button>
+							<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Next</span>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- slider ends-->
 
-      <!-- services starts -->
-      <section class="fi-services">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="text-center mb-5">
-                <h6 class="sub-heading">What we serve</h6>
-                <h2 class="heading">
-                  Your Favourite Food <br />Delivery Partner
-                </h2>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="fi-card p-4 text-center">
-                <div class="img">
-                  <img src="img/img1.png" alt="" />
-                </div>
-                <div class="content mt-3">
-                  <h3>Easy To Order</h3>
-                  <p>You only need a frew steps in ordering food</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="fi-card p-4 text-center">
-                <div class="img">
-                  <img src="img/img2.png" alt="" />
-                </div>
-                <div class="content mt-3">
-                  <h3>Fastest Delivery</h3>
-                  <p>You only need a frew steps in ordering food</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="fi-card p-4 text-center">
-                <div class="img">
-                  <img src="img/img3.png" alt="" />
-                </div>
-                <div class="content mt-3">
-                  <h3>Best Quality</h3>
-                  <p>You only need a frew steps in ordering food</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- services ends -->
+		<!-- services starts -->
+		<section class="fi-services">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="text-center mb-5">
+							<h6 class="sub-heading">What we serve</h6>
+							<h2 class="heading">
+								Your Favourite Food <br />Delivery Partner
+							</h2>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="fi-card p-4 text-center">
+							<div class="img">
+								<img src="img/img1.png" alt="" />
+							</div>
+							<div class="content mt-3">
+								<h3>Easy To Order</h3>
+								<p>You only need a frew steps in ordering food</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="fi-card p-4 text-center">
+							<div class="img">
+								<img src="img/img2.png" alt="" />
+							</div>
+							<div class="content mt-3">
+								<h3>Fastest Delivery</h3>
+								<p>You only need a frew steps in ordering food</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="fi-card p-4 text-center">
+							<div class="img">
+								<img src="img/img3.png" alt="" />
+							</div>
+							<div class="content mt-3">
+								<h3>Best Quality</h3>
+								<p>You only need a frew steps in ordering food</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- services ends -->
 
-      <!-- menu starts-->
-      <section class="fi-menu">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="text-center mb-5">
-                <h6 class="sub-heading">Our Menu</h6>
-                <h2 class="heading">
-                  Menu That Always <br />Make You Fall In Love
-                </h2>
-              </div>
-            </div>
-            <div class="col-md-2">
-              <div class="fi-card p-2 py-4 text-center">
-                <div class="img">
-                  <img src="img/icon_1.png" alt="" />
-                </div>
-                <h3>Burger</h3>
-              </div>
-            </div>
-            <div class="col-md-2">
-              <div class="fi-card p-2 py-4 text-center">
-                <div class="img">
-                  <img src="img/icon_2.png" alt="" />
-                </div>
-                <h3>Pizza</h3>
-              </div>
-            </div>
-            <div class="col-md-2">
-              <div class="fi-card p-2 py-4 text-center">
-                <div class="img">
-                  <img src="img/icon_3.png" alt="" />
-                </div>
-                <h3>Fried Chicken</h3>
-              </div>
-            </div>
-            <div class="col-md-2">
-              <div class="fi-card p-2 py-4 text-center">
-                <div class="img">
-                  <img src="img/icon_4.png" alt="" />
-                </div>
-                <h3>Drink</h3>
-              </div>
-            </div>
-            <div class="col-md-2">
-              <div class="fi-card p-2 py-4 text-center">
-                <div class="img">
-                  <img src="img/icon_5.png" alt="" />
-                </div>
-                <h3>Salad</h3>
-              </div>
-            </div>
-            <div class="col-md-2">
-              <div class="fi-card p-2 py-4 text-center">
-                <div class="img">
-                  <img src="img/icon_6.png" alt="" />
-                </div>
-                <h3>Sandwich</h3>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- menu ends-->
+		<!-- menu starts-->
+		<section class="fi-menu">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="text-center mb-5">
+							<h6 class="sub-heading">Our Menu</h6>
+							<h2 class="heading">
+								Menu That Always <br />Make You Fall In Love
+							</h2>
+						</div>
+					</div>
+					<div class="col-md-2">
+						<div class="fi-card p-2 py-4 text-center">
+							<div class="img">
+								<img src="img/icon_1.png" alt="" />
+							</div>
+							<h3>Burger</h3>
+						</div>
+					</div>
+					<div class="col-md-2">
+						<div class="fi-card p-2 py-4 text-center">
+							<div class="img">
+								<img src="img/icon_2.png" alt="" />
+							</div>
+							<h3>Pizza</h3>
+						</div>
+					</div>
+					<div class="col-md-2">
+						<div class="fi-card p-2 py-4 text-center">
+							<div class="img">
+								<img src="img/icon_3.png" alt="" />
+							</div>
+							<h3>Fried Chicken</h3>
+						</div>
+					</div>
+					<div class="col-md-2">
+						<div class="fi-card p-2 py-4 text-center">
+							<div class="img">
+								<img src="img/icon_4.png" alt="" />
+							</div>
+							<h3>Drink</h3>
+						</div>
+					</div>
+					<div class="col-md-2">
+						<div class="fi-card p-2 py-4 text-center">
+							<div class="img">
+								<img src="img/icon_5.png" alt="" />
+							</div>
+							<h3>Salad</h3>
+						</div>
+					</div>
+					<div class="col-md-2">
+						<div class="fi-card p-2 py-4 text-center">
+							<div class="img">
+								<img src="img/icon_6.png" alt="" />
+							</div>
+							<h3>Sandwich</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- menu ends-->
 
-      <br /><br /><br /><br /><br /><br /><br /><br />
-    </div>
+		<!-- customer start-->
+		<section class="fi-customer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="text-center mb-5">
+							<h6 class="sub-heading">What They say</h6>
+							<h2 class="heading">
+								what our customer
+								<br />say about us
+							</h2>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="customer-card">
+							<h5>
+								“The food is fabulous as also are the staff. If you want fabulous authentic Chinese food, make sure you go here.”
+							</h5>
+							<div class="d-flex align-items-center">
+								<div class="img">
+									<img src="img/profile.png" alt="">
+								</div>
+								<div class="customer-content">
+									<h6>Cooper Kristin</h6>
+									<label>Food Courier</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="customer-card">
+							<h5>
+								“The food is fabulous as also are the staff. If you want fabulous authentic Chinese food, make sure you go here.”
+							</h5>
+							<div class="d-flex align-items-center">
+								<div class="img">
+									<img src="img/profile.png" alt="">
+								</div>
+								<div class="customer-content">
+									<h6>Cooper Kristin</h6>
+									<label>Food Courier</label>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- customer ends-->
 
-    <!-- Bootstrap js -->
-    <script src="js/bootstrap.min.js"></script>
+		<!-- download starts-->
+		<section class="fi-download">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="download-content">
+							<h6 class="sub-heading">DOWNLOAD apP</h6>
+							<h2 class="heading">
+								Get Started with
+								<br />Food Island Today!
+							</h2>
+							<p>Discover food wherever and whenever and get your food delivered quickly</p>
+							<ul class="d-flex align-items-center gap-3">
+								<li>
+									<a href="#" target="_blank" class="d-block">
+										<img src="img/play_store.png" alt="">
+									</a>
+								</li>
+								<li>
+									<a href="#" target="_blank" class="d-block">
+										<img src="img/apple_store.png" alt="">
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="img"><img src="img/mobile%20muckup.png" alt=""></div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- download ends-->
 
-    <!-- Custom js -->
-    <script src="js/app.js"></script>
-  </body>
-</html>
+		<!-- footer starts-->
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3">
+						<div class="logo">
+							<img src="img/logo.png" alt="" />
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div>
+							<h3>Quick links</h3>
+							<ul>
+								<li><a href="#">Home</a></li>
+								<li><a href="#">About</a></li>
+								<li><a href="#">Contact</a></li>
+								<li><a href="#">Why choose us</a></li>
+								<li><a href="#">Privacy Policy</a></li>
+								<li><a href="#">Team</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div>
+							<h3>Products</h3>
+							<ul>
+								<li><a href="#">Tomatoes</a></li>
+								<li><a href="#">Mangoes</a></li>
+								<li><a href="#">Red cheries</a></li>
+								<li><a href="#">Banana</a></li>
+								<li><a href="#">Carrots</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div>
+							<h3>Social</h3>
+							<ul class="social-icons">
+								<li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+								<li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+								<li><a href="#"><ion-icon name="logo-youtube"></ion-icon></a></li>
+								<li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-12">
+						<hr/>
+						<div class="text-center">
+							<p>© 2022 Farmino | All Rights Reserved</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- footer ends-->
+
+	
+	</div>
+
+	<!-- Bootstrap js -->
+	<script src="js/bootstrap.min.js"></script>
+	
+	<!-- ionicons js -->
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+	<!-- Custom js -->
+	<script src="js/app.js"></script>
+</body></html>
